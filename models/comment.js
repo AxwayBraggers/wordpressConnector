@@ -9,5 +9,6 @@ module.exports = Arrow.Model.extend('comment', {
         url: { type: String, required: true },
         likes_count: { type: String },
         author: { type: String }
-    }
+    },
+    connector: "com.axway.wordpress.connector"
 });

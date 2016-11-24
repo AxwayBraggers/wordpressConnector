@@ -11,5 +11,6 @@ module.exports = Arrow.Model.extend('post', {
         image_url: { type: String }, // Url to image if there is one in the post
         likes_count: { type: String },
         comment_count: { type: String }
-    }
+    },
+    connector: "com.axway.wordpress.connector"
 });
