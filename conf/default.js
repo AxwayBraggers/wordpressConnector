@@ -88,7 +88,7 @@ module.exports = {
     connectors: {
         'com.axway.wordpress.connector': {
             modelAutogen: true,
-            wordpressApiUrl : 'http://wordpress.com',
+            wordpressApiUrl : 'https://public-api.wordpress.com/rest/v1.1/',
             accessToken : "iaNg%wcAdulcR489HW&7bz8RGOY!kOQi@z4LF3BPWZhqljheYBXVlhHUyN6!ta^#",
             blogId : 120312210,
             blogUrl : "http://marinvasilevblog.wordpress.com",
