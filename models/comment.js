@@ -10,5 +10,5 @@ module.exports = Arrow.Model.extend('comment', {
         likes_count: { type: String },
         author: { type: String }
     },
-    connector: "com.axway.wordpress.connector"
+    connector: "com.axway.wordpress.connector",
 });
