@@ -85,5 +85,13 @@ module.exports = {
     cookieSecret: 'M/pGfXr9Y076ktlGGo02yOxhLbigDmhd',
 
     // your connector configuration goes here
-    connectors: {}
+    connectors: {
+        'com.axway.wordpress.connector': {
+            modelAutogen: true,
+            wordpressApiUrl : 'https://public-api.wordpress.com/rest/v1.1/',
+            accessToken : "iaNg%wcAdulcR489HW&7bz8RGOY!kOQi@z4LF3BPWZhqljheYBXVlhHUyN6!ta^#",
+            blogId : 120312210,
+            blogUrl : "http://marinvasilevblog.wordpress.com",
+		}
+    }
 };

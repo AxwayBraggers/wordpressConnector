@@ -19,7 +19,7 @@ server.on("starting", function() {
     server.port = 8989;
 });
 
-server.on("listening", function() {
+server.on("started", function() {
     var connector = Arrow.getConnector("com.axway.wordpress.connector");
 });
 
