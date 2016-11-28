@@ -9,7 +9,7 @@ var Arrow = require('arrow'),
 server.addModel(Arrow.Model.extend('tbray', {
     fields: {
         // TODO: Add fields to it.
-        title: {type: String}
+        title: { type: String }
     },
     connector: 'com.axway.wordpress.connector'
 }));
