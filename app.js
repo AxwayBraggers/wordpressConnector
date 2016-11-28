@@ -16,7 +16,7 @@ server.addModel(Arrow.Model.extend('tbray', {
 
 
 server.on("starting", function() {
-    server.port = 8989;
+    server.port = 8080;
 });
 
 server.on("started", function() {
