@@ -6,7 +6,7 @@ module.exports = Arrow.Model.extend('comment', {
     fields: {
         ID: { type: Number, required: true },
         content: { type: String, required: true },
-        url: { type: String, required: true },
+        url: { type: String, required: false },
         likes_count: { type: String },
         author: { type: String }
     },
