@@ -83,18 +83,6 @@ module.exports = {
 
     // if you want signed cookies, you can set this value. if you don't want signed cookies, remove or make null
     cookieSecret: 'M/pGfXr9Y076ktlGGo02yOxhLbigDmhd',
-
-<<<<<<< HEAD
-	// your connector configuration goes here
-	connectors: {
-		'com.axway.wordpress.connector': {
-			// TODO: Create a default config file in here; this will guide users of your connector.
-			'apikey': 'string',
-			'apisecret': 'string',
-		}
-	}
-};
-=======
     // your connector configuration goes here
     connectors: {
         'com.axway.wordpress.connector': {
@@ -106,4 +94,3 @@ module.exports = {
 		}
     }
 };
->>>>>>> development
